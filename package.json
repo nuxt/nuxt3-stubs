@@ -1,0 +1,15 @@
+{
+  "name": "@nuxt/kit",
+  "version": "0.7.0-edge",
+  "license": "MIT",
+  "main": "./lib/index.cjs",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    "require": "./lib/index.cjs",
+    "import": "./lib/index.mjs"
+  },
+  "dependencies": {
+    "@nuxt/kit-edge": "latest",
+    "jiti": "^1.12.9"
+  }
+}
