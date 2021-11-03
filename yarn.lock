@@ -24,9 +24,9 @@
     fastq "^1.6.0"
 
 "@nuxt/kit-edge@latest":
-  version "3.0.0-27265756.d30f4d8"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-27265756.d30f4d8.tgz#2564c34fb3677cf02c2dad53669cb6cd85dcd159"
-  integrity sha512-WDRPHIgF9XEeEKnoaiYZ9lht/FW5lwiDrRbDbDHaF258Sq0BbENnn4M+LFj7TPQffuaS69OdXXIVpZaXH+KUNA==
+  version "3.0.0-27265876.3cd4494"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-27265876.3cd4494.tgz#3375d07f032a41ae6b58dc3725fae15ef5a76234"
+  integrity sha512-69oWKZiHPajONbxf4lPJdMp3Y6MlGmArVn283mlevv7jblrhQmEDDQrcfW7BIvuJ2athhfk7g8L9Ase0I1qIKg==
   dependencies:
     consola "^2.15.3"
     create-require "^1.1.1"
@@ -37,13 +37,13 @@
     hookable "^5.0.0"
     jiti "^1.12.9"
     lodash.template "^4.5.0"
-    mlly "^0.3.11"
+    mlly "^0.3.12"
     pathe "^0.2.0"
     pkg-types "^0.3.1"
     rc9 "^1.2.0"
     scule "^0.2.1"
     semver "^7.3.5"
-    std-env "^2.3.1"
+    std-env "^3.0.0"
     ufo "^0.7.9"
     unctx "^1.0.2"
     untyped "^0.2.11"
@@ -59,11 +59,6 @@ braces@^3.0.1:
   integrity sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==
   dependencies:
     fill-range "^7.0.1"
-
-ci-info@^3.1.1:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.2.0.tgz#2876cb948a498797b5236f0095bc057d0dca38b6"
-  integrity sha512-dVqRX7fLUm8J6FgHJ418XuIgDLZDkYcDFTeL6TA2gt5WlIZUQrrH6EZrNClwT/H0FateUsZkGIOPRrLbP+PR9A==
 
 consola@^2.15.3:
   version "2.15.3"
@@ -233,7 +228,7 @@ micromatch@^4.0.4:
     braces "^3.0.1"
     picomatch "^2.2.3"
 
-mlly@^0.3.11, mlly@^0.3.6:
+mlly@^0.3.12, mlly@^0.3.6:
   version "0.3.12"
   resolved "https://registry.yarnpkg.com/mlly/-/mlly-0.3.12.tgz#9928d517622558ea6ce3d5544df1a4f7c6687811"
   integrity sha512-+5DdpxP48PpfV/FcP4j/8TREPycnROCg0hX1nmD6aoZ2lD4FpZI4sxWG6l6YpUktXi/vckj8NaAl3DVQSkIn3w==
@@ -305,12 +300,10 @@ slash@^3.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-3.0.0.tgz#6539be870c165adbd5240220dbe361f1bc4d4634"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
-std-env@^2.3.1:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/std-env/-/std-env-2.3.1.tgz#d42271908819c243f8defc77a140fc1fcee336a1"
-  integrity sha512-eOsoKTWnr6C8aWrqJJ2KAReXoa7Vn5Ywyw6uCXgA/xDhxPoaIsBa5aNJmISY04dLwXPBnDHW4diGM7Sn5K4R/g==
-  dependencies:
-    ci-info "^3.1.1"
+std-env@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.0.0.tgz#8dbd16bd2aadc18992072e2f5839e897f4ee2733"
+  integrity sha512-GoFEqAGzhaexp/T01rIiLOK9LHa6HmVwEUyeU4cwdSnOhfxpw9IMeAFi44SHWbCErEs29qEh7vAOUbtUmoycjA==
 
 to-regex-range@^5.0.1:
   version "5.0.1"

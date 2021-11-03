@@ -1,0 +1,17 @@
+{
+  "name": "@nuxt/bridge",
+  "version": "0.10.1",
+  "license": "MIT",
+  "main": "./lib/index.cjs",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    "require": "./lib/index.cjs",
+    "import": "./lib/index.mjs"
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@nuxt/bridge-edge": "latest"
+  }
+}
