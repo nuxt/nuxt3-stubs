@@ -1,0 +1,1 @@
+import 'nuxi-edge/cli'

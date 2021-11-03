@@ -7,3 +7,9 @@ Currently since there is no stable release channel for Nuxt 3, we use edge relea
 In order to keep usage as simple as possible, package stubs in this repository re-export from latest edge release for each package.
 
 Please check https://v3.nuxtjs.org/ and https://github.com/nuxt/framework for usage information.
+
+## Stubbed packages
+
+- [`nuxi`](./packages/nuxi)
+- [`@nuxt/bridge`](./packages/bridge)
+- [`@nuxt/kit`](./packages/kit)

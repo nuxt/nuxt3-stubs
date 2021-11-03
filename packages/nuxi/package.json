@@ -1,0 +1,16 @@
+{
+  "name": "nuxi",
+  "version": "0.10.1",
+  "license": "MIT",
+  "bin": "./bin/nuxi.mjs",
+  "exports": {
+    "./cli": "./lib/cli.mjs"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "dependencies": {
+    "nuxi-edge": "latest"
+  }
+}
