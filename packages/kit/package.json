@@ -1,9 +1,10 @@
 {
   "name": "@nuxt/kit",
-  "version": "0.8.0-edge",
+  "version": "0.8.1-edge",
   "license": "MIT",
   "main": "./lib/index.mjs",
   "types": "./lib/index.d.ts",
+  "type": "module",
   "exports": {
     ".": {
       "import": "./lib/index.mjs"
