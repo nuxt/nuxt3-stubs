@@ -1,0 +1,19 @@
+{
+  "name": "@nuxt/schema",
+  "version": "0.1.0-edge",
+  "license": "MIT",
+  "main": "./lib/index.mjs",
+  "types": "./lib/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs"
+    }
+  },
+  "files": [
+    "lib"
+  ],
+  "dependencies": {
+    "@nuxt/schema-edge": "latest"
+  }
+}
